@@ -21,7 +21,7 @@ def variables():
     """ The molecules; O2, CO2, H2O and C6H12O6 are imported as pdb files and are put as global objects """
     global OXYGEN, CARBONDIOX, CARBONDIOX2, WATER, GLUCOSE, ATP
     # Pdb molecules
-    OXYGEN = pdb.PDBMolecule('{}/pdb/O2.pdb'.format(SETTINGS.AppLocation), center=True)
+    OXYGEN = pdb.PDBMolecule('{}/pdb/o2.pdb'.format(SETTINGS.AppLocation), center=True)
     CARBONDIOX = pdb.PDBMolecule('{}/pdb/co2.pdb'.format(SETTINGS.AppLocation), center=False, offset=[7, 25, 0])
     CARBONDIOX2 = pdb.PDBMolecule('{}/pdb/co2.pdb'.format(SETTINGS.AppLocation), center=False, offset=[-15, 1, 0])
     WATER = pdb.PDBMolecule('{}/pdb/water.pdb'.format(SETTINGS.AppLocation), center=False, offset=[-13.5, 1, 0])
