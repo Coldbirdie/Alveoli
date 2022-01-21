@@ -41,6 +41,8 @@ In this project there are newly created pdb files, these are not brought within 
 The pdb files are included in the .zip map. First open the pypovray folder, inside the folder there
 should be a folder called 'pdb'. Once you've opened this folder, 
 drag the .pdb files you've gotten from the .zip map into it. 
+Futhermore we've used the following website to acquire a glucose molecule pdb file:
+https://ww2.chemistry.gatech.edu/~lw26/structure/small_molecules/index.html
 
 As for the final step, the duration 
 length of the video must be adjusted to 12 seconds since that's the length required to run this animation.
